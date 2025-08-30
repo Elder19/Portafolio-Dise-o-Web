@@ -1,0 +1,19 @@
+[
+  {
+    "curso": "IC8057",
+    "nombre": "Introducción al Desarrollo de Páginas Web",
+    "semestre": "2025-2",
+    "descripcion": "Curso introductorio al desarrollo web.",
+    "trabajos": [
+      {
+        "nombre": "Proyecto Final",
+        "tipo": "Proyecto",
+        "descripcion": "Desarrollo de un portafolio personal.",
+        "fecha": "2025-08-15",
+        "tecnologias": ["HTML", "CSS", "JavaScript"],
+        "repositorio": "https://github.com/Elder19/proyecto-final",
+        "sitio": "https://elder19.github.io/proyecto-final"
+      }
+    ]
+  }
+]
