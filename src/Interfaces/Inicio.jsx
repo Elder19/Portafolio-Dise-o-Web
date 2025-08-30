@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 //import "./Cursos.css"; // <-- Importa aquí tu CSS
 import ElderImg from "../assets/ELDER.jpg";
 
-function Cursos() {
+function Inicio() {
   const [cursos, setCursos] = useState([]);
 
   useEffect(function () {
@@ -41,4 +41,4 @@ function Cursos() {
   );
 }
 
-export default Cursos;
+export default Inicio;

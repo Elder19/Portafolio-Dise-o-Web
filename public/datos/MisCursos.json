@@ -1,0 +1,35 @@
+[
+  {
+    "curso": "IC8057",
+    "nombre": "Introducción al Desarrollo de Páginas Web",
+    "semestre": "2025-S2",
+    "descripcion": "Curso de HTML, CSS y JavaScript",
+    "trabajos": [
+      {
+        "nombre": "Portafolio",
+        "tipo": "Potafolio",
+        "objetivo": "Crear un portafolio web",
+        "fecha": "2025-08-30",
+        "tecnologias": ["HTML", "CSS", "JS"],
+        "repo": "https://github.com/Elder19/Portafolio-Dise-o-Web",
+        "sitio": "https://silly-conkies-1bf03f.netlify.app/"
+      },
+      {
+        "nombre": "Tarea 1",
+        "tipo": "Tarea",
+        "objetivo": "Practicar selectores CSS",
+        "fecha": "2025-08-20",
+        "tecnologias": ["CSS"],
+        "repo": "",
+        "sitio": ""
+      }
+    ]
+  },
+  {
+    "curso": "IC8058",
+    "nombre": "Programación Avanzada",
+    "semestre": "2025-S2",
+    "descripcion": "Curso de estructuras de datos y algoritmos",
+    "trabajos": []
+  }
+]
