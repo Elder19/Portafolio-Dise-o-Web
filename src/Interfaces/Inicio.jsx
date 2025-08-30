@@ -21,7 +21,7 @@ function Inicio() {
   return (
     <>
       <header>
-        {/*<img src={ElderImg} alt="Imagen tipo pasaporte del estudiante" />*/}
+        {<img src={ElderImg} alt="Imagen tipo pasaporte del estudiante" />}
         <h1>Portafolio</h1>
       </header>
       <main>
