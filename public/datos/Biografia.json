@@ -1,0 +1,48 @@
+
+{
+    "DatosPersonales": {
+        "nombre": "Elder Leon Perez",
+        "cedula": "703080520",
+        "edad": 21,
+        "fechaNacimiento": "18-05-2004",
+        "direccion": "Limon, Matama, La Bomba",
+        "email": "eleon@estudiantec.cr",
+        "numero": "71950212"
+    },
+    "BiografiProfesional": "Soy un estudiante de computación con un técnico medio en computación del Colegio Profesional Las Palmitas Empresarial. Actualmente curso el tercer año de la carrera de computación en el TEC. Me interesan la enseñanza de la carrera, el desarrollo backend y el trabajo con bases de datos. Mi objetivo profesional es contribuir al crecimiento tecnológico y educativo, desarrollando soluciones eficientes y compartiendo conocimientos con otros estudiantes.",
+    "HabilidadesTecnicas": {
+        "Lenguajes": [
+            {"nombre": "JavaScript", "nivel": "Intermedio"},
+            {"nombre": "Python", "nivel": "Intermedio"},
+            {"nombre": "Java", "nivel": "Básico"},
+            {"nombre": "C++", "nivel": "Básico"},
+            {"nombre": "SQL", "nivel": "Intermedio"},
+            {"nombre": "C#", "nivel": "Básico"}
+
+        ],
+        "Herramientas": [
+            {"nombre": "Git", "nivel": "Intermedio"},
+            {"nombre": "VS Code", "nivel": "Intermedio"},
+            {"nombre": "Node.js", "nivel": "Básico"}
+        ],
+        "Tecnologias": [
+            {"nombre": "React", "nivel": "Básico"},
+            {"nombre": "MySQL", "nivel": "Intermedio"},
+            {"nombre": "HTML/CSS", "nivel": "Intermedio"}
+        ]
+    },
+    "Certificaciones": [
+        {
+            "nombre": "Técnico Medio en Computación",
+            "institucion": "Colegio Profesional Las Palmitas Empresarial",
+            "enlace": ""
+        }
+    ],
+    "RedesProfesionales": [
+        {"nombre": "GitHub", "url": "https://github.com/Elder19"},
+        {"nombre": "Instagram", "url": "https://www.instagram.com/elderlp_/"},
+        {"nombre": "LinkedIn", "url": "https://www.linkedin.com/feed/"}
+    ]
+}
+
+

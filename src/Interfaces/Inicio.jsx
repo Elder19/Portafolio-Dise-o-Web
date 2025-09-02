@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 //import "./Cursos.css"; // <-- Importa aquí tu CSS
 import ElderImg from "../assets/ELDER.jpg";
-
+import "../Styles/NavBar.css";
 function Inicio() {
   const [cursos, setCursos] = useState([]);
 
@@ -21,7 +21,6 @@ function Inicio() {
   return (
     <>
       <header>
-        {<img src={ElderImg} alt="Imagen tipo pasaporte del estudiante" />}
         <h1>Portafolio</h1>
       </header>
       <main>
@@ -32,7 +31,13 @@ function Inicio() {
                 {curso.curso} - {curso.nombre}
               </h2>
               <p>Semestre: {curso.semestre}</p>
-              <p>Descripción: {curso.descripcion}</p>
+              {
+                <img
+                  src={ElderImg}
+                  alt="Imagen tipo pasaporte del estudiante"
+                />
+              }
+              <aside>Descripción: {curso.descripcion}</aside>
             </div>
           );
         })}

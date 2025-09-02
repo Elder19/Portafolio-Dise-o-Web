@@ -25,3 +25,12 @@
 .nav-links a:hover {
   color:gold;         
 }
+.cursos-container img {
+  width: 100px;       /* ancho fijo pequeño */
+  height: 100px;      /* alto fijo para que sea cuadrada */
+  object-fit: cover;  /* recorta la imagen si no es cuadrada */
+  border-radius: 50%; /* opcional: hace la imagen circular */
+  border: 2px solid #333; /* opcional: borde alrededor */
+  margin-top: 10px;   /* espacio superior */
+  display: block;     /* evita que se alinee con texto */
+}
