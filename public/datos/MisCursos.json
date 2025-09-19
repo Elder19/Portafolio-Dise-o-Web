@@ -7,7 +7,7 @@
     "trabajos": [
       {
         "nombre": "Portafolio",
-        "tipo": "Potafolio",
+        "tipo": "Portafolio",
         "objetivo": "Crear un portafolio web",
         "fecha": "2025-08-30",
         "tecnologias": ["HTML", "CSS", "JS"],
@@ -15,13 +15,40 @@
         "sitio": "https://silly-conkies-1bf03f.netlify.app/"
       },
       {
-        "nombre": "Tarea 1",
-        "tipo": "Tarea",
-        "objetivo": "Practicar selectores CSS",
-        "fecha": "2025-08-20",
-        "tecnologias": ["CSS"],
-        "repo": "",
-        "sitio": ""
+        "nombre": "Laboratorio 1",
+        "tipo": "Laboratorio",
+        "objetivo": "Introducción a tecnologías modernas de desarrollo web",
+        "fecha": "2025-09-05",
+        "tecnologias": ["HTML", "CSS", "JS"],
+        "repo": "https://github.com/Elder19/desarrollo-moderno-Elder",
+        "sitio": "https://tecnologiasmodernas.netlify.app/"
+      },
+      {
+        "nombre": "Laboratorio 2",
+        "tipo": "Laboratorio",
+        "objetivo": "Construcción de páginas con estilos CSS",
+        "fecha": "2025-09-10",
+        "tecnologias": ["HTML", "CSS"],
+        "repo": "https://github.com/Elder19/Laboratorio-2-pagina/blob/main/README.md",
+        "sitio": "https://hackathontec.netlify.app/"
+      },
+      {
+        "nombre": "Laboratorio 3",
+        "tipo": "Laboratorio",
+        "objetivo": "Práctica con selectores y modelo de caja",
+        "fecha": "2025-09-15",
+        "tecnologias": ["HTML", "CSS"],
+        "repo": "https://github.com/Elder19/Laboratorio-2-pagina/tree/lab3-selectores-boxmodel",
+        "sitio": "https://ubiquitous-gumdrop-915d6d.netlify.app/"
+      },
+      {
+        "nombre": "Laboratorio 5",
+        "tipo": "Laboratorio",
+        "objetivo": "Diseño de componentes web avanzados",
+        "fecha": "2025-09-25",
+        "tecnologias": ["HTML", "CSS", "JS"],
+        "repo": "https://github.com/Elder19/Laboratorio-2-pagina/tree/Lab5branch",
+        "sitio": "https://68ca0da2db21ae5cd7bc85ca--ornate-crumble-de95a2.netlify.app/"
       }
     ]
   },
@@ -31,5 +58,22 @@
     "semestre": "2025-S2",
     "descripcion": "Curso de estructuras de datos y algoritmos",
     "trabajos": []
+  },
+  {
+    "curso": "IC-4302",
+    "nombre": "Bases de Datos II",
+    "semestre": "2025-S2",
+    "descripcion": "Curso de bases de datos avanzadas",
+    "trabajos": [
+      {
+        "nombre": "Tarea 1",
+        "tipo": "Tarea",
+        "objetivo": "Desarrollo de consultas y procedimientos en SQL",
+        "fecha": "2025-09-01",
+        "tecnologias": ["SQL Server"],
+        "repo": "https://github.com/2025-Semestre-2/tarea-1-Elder19",
+        "sitio": ""
+      }
+    ]
   }
 ]

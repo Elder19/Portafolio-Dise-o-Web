@@ -1,36 +1,85 @@
-
+/* Contenedor principal */
 .navbar {
-  display: flex;           
-  justify-content: center; 
-  align-items: center;     
-  padding: 10px 20px;
-  background-color: blue;
-  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #108c7d8d;
+  padding: 0.5rem 1rem;
+  position: relative;
 }
+
+/* Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Botón hamburguesa */
+.menu-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none;
+}
+
+/* Lista de enlaces */
 .nav-links {
-  list-style: none;        
-  display: flex;           
-  gap: 30px;               
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
   margin: 0;
   padding: 0;
+
+  /* Centrar horizontalmente */
+  justify-content: center;
+  flex: 1; /* para ocupar el espacio disponible */
 }
 
-.nav-links a {
-  color: rgb(255, 255, 255);
+.nav-links li a {
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s;
 }
 
-.nav-links a:hover {
-  color:gold;         
+.nav-links li a:hover {
+  text-decoration: underline;
 }
-.cursos-container img {
-  width: 100px;       /* ancho fijo pequeño */
-  height: 100px;      /* alto fijo para que sea cuadrada */
-  object-fit: cover;  /* recorta la imagen si no es cuadrada */
-  border-radius: 50%; /* opcional: hace la imagen circular */
-  border: 2px solid #333; /* opcional: borde alrededor */
-  margin-top: 10px;   /* espacio superior */
-  display: block;     /* evita que se alinee con texto */
+
+/* Responsive: mostrar menú hamburguesa en pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #159283;
+    width: 200px;
+    display: none;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-bottom: 1rem;
+  }
+
+  .nav-links li:last-child {
+    margin-bottom: 0;
+  }
 }

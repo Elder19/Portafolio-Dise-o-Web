@@ -1,0 +1,113 @@
+/* Botón para volver a cursos */
+.curso-detalle-volver-btn {
+  display: inline-block;
+  background: #219ebc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s, color 0.2s;
+}
+
+.curso-detalle-volver-btn:hover {
+  background: #023047;
+  color: #ffb703;
+}
+.curso-detalle-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#curso-detalle {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 0;
+}
+
+.curso-detalle-table th,
+.curso-detalle-table td {
+  border: 1px solid #4682b4;
+  padding: 0.5rem;
+}
+
+.curso-detalle-table th {
+  background: #eaf4fb;
+}
+
+.curso-detalle-btn {
+  background: #4682b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s;
+  margin-top: 2rem;
+}
+
+.curso-detalle-btn:hover {
+  background: #315a7c;
+}
+
+.curso-detalle-filtro-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.curso-detalle-filtro {
+  margin-top: 1rem;
+  background: #eaf4fb;
+  border: 1px solid #4682b4;
+  border-radius: 8px;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.filtro-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0.3rem;
+  background: #4682b4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 1px 4px #0001;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.filtro-btn:hover {
+  background: #315a7c;
+  transform: scale(1.05);
+}
+
+.filtro-btn.active {
+  background: #2a9d8f;
+}
+
+@media (max-width: 768px) {
+  .curso-detalle-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .curso-detalle-table thead,
+  .curso-detalle-table tbody,
+  .curso-detalle-table tr,
+  .curso-detalle-table th,
+  .curso-detalle-table td {
+    display: ;
+  }
+}

@@ -1,0 +1,109 @@
+.perfil-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+
+}
+/* Contenedor general de biografía */
+.biografia-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+/* Imagen del perfil */
+.perfil-img {
+  width: 140px;
+  border-radius: 10px;
+  border: 2px solid #4682b4;
+}
+
+/* Secciones generales */
+.perfil-section {
+  margin-top: 1.5rem;
+}
+
+/* Habilidades */
+.habilidades-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.habilidades-list {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidad-item {
+  margin-bottom: 0.8rem;
+}
+
+.habilidad-nombre {
+  font-weight: 500;
+  display: inline-block;
+  width: 110px;
+}
+
+.habilidad-barra {
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  height: 16px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  position: relative;
+}
+
+/* Colores según nivel */
+.nivel-avanzado {
+  height: 100%;
+  background: #4682b4;
+  border-radius: 8px;
+  transition: width 0.5s;
+}
+
+.nivel-intermedio {
+  height: 100%;
+  background: #87ceeb;
+  border-radius: 8px;
+  transition: width 0.5s;
+}
+
+.nivel-básico,
+.nivel-basico {
+  height: 100%;
+  background: #b0c4de;
+  border-radius: 8px;
+  transition: width 0.5s;
+}
+
+.habilidad-nivel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.85em;
+  color: #222;
+  font-weight: 600;
+}
+/* Botón de descargar PDF */
+.perfil-descargar-btn {
+  background: #4682b4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.2rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s;
+  margin-top: 2rem;
+}
+.perfil-descargar-btn:hover {
+  background: #83dd16;
+}

@@ -1,9 +1,9 @@
 {
-	"nombre": "Elder Leon Perez",
-	"cedula": "703080520",
-	"edad": 21,
-	"fechaNacimiento": "18-05-2004",
-	"direccion": "Limon, Matama, La Bomba",
-	"email": "eleon@estudiantec.cr",
-	"numero": "71950212"
+  "nombre": "Elder Leon Perez",
+  "cedula": "703080520",
+  "edad": 21,
+  "fechaNacimiento": "18-05-2004",
+  "direccion": "Limon, Matama, La Bomba",
+  "email": "eleon@estudiantec.cr",
+  "numero": "71950212"
 }
