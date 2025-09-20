@@ -49,6 +49,15 @@
         "tecnologias": ["HTML", "CSS", "JS"],
         "repo": "https://github.com/Elder19/Laboratorio-2-pagina/tree/Lab5branch",
         "sitio": "https://68ca0da2db21ae5cd7bc85ca--ornate-crumble-de95a2.netlify.app/"
+      },
+      {
+        "nombre": "Laboratorio 6",
+        "tipo": "Laboratorio",
+        "objetivo": "Deteccion de mause con DOM y eventos",
+        "fecha": "2025-10-19",
+        "tecnologias": ["HTML", "CSS", "JS"],
+        "repo": "https://github.com/Elder19/PORTAFOLIOSdeClase/tree/main/lab6",
+        "sitio": ""
       }
     ]
   },
