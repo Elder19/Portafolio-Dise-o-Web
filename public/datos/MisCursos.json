@@ -53,11 +53,38 @@
       {
         "nombre": "Laboratorio 6",
         "tipo": "Laboratorio",
-        "objetivo": "Deteccion de mause con DOM y eventos",
+        "objetivo": "Detección de mouse con DOM y eventos",
         "fecha": "2025-10-19",
         "tecnologias": ["HTML", "CSS", "JS"],
         "repo": "https://github.com/Elder19/PORTAFOLIOSdeClase/tree/main/lab6",
         "sitio": ""
+      },
+      {
+        "nombre": "Laboratorio 8 (API REST)",
+        "tipo": "Laboratorio",
+        "objetivo": "Implementación de API REST con API Key y JWT",
+        "fecha": "2025-10-28",
+        "tecnologias": ["Node.js", "Express", "JWT", "JSON DB"],
+        "repo": "https://github.com/Braslyvm/Lab8",
+        "documentacion": "https://documenter.getpostman.com/view/49002921/2sB3QGuBuK",
+        "descripcion": "API REST con autenticación (API Key + JWT), manejo de errores y persistencia en JSON."
+      },
+      {
+        "nombre": "Laboratorio 10 (React + API)",
+        "tipo": "Laboratorio",
+        "objetivo": "Consumo de API protegida con API Key usando React",
+        "fecha": "2025-11-01",
+        "tecnologias": ["React", "Vite", "useEffect", "useState"],
+        "repo": "https://github.com/Elder19/Lab10",
+        "descripcion": "Cliente en React con paginación, ordenamiento, selector de formato (JSON/XML) y skeleton loaders."
+      },
+      {
+        "nombre": "Documento Adicional",
+        "tipo": "Archivo",
+        "objetivo": "Referencia teórica entregada",
+        "fecha": "2025-11-05",
+        "archivo": "https://drive.google.com/file/d/1SFFvY_w8cyRk7pmDl_IcC5gLJRAke2L4/view?usp=sharing",
+        "descripcion": "Documento PDF de apoyo relacionado con la API y React."
       }
     ]
   },

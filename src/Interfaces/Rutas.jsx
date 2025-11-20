@@ -41,9 +41,18 @@ const NavBar = () => {
         <li>
           <Link to="/perfil">Perfil</Link>
         </li>
+       
+
         <li>
-          <Link to="/recomendaciones">Recomendaciones</Link>
+          <Link to="/comentarios">Comentarios</Link>
         </li>
+         <li>
+         <Link to="/trabajos">Trabajos.orgx</Link>
+        </li>
+        <li>
+  <Link to="/hobbies">Hobbies</Link>
+</li>
+
       </ul>
     </nav>
   );

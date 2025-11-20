@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.trabajos-root {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-principal {
+  font-size: 32px;
+  margin: 5px 0 20px 0;
+}
+
+.fila-video-texto {
+  display: flex;
+  width: 95%;
+  height: 48vh;
+  gap: 20px;
+}
+
+.video-caja {
+  flex: 1.2;
+  background: #000;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.video-ajustado {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-caja {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  overflow: auto;
+  text-align: justify;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+}
+
+.subtitulo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.galeria-scroll {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0 15px 0;
+  scroll-snap-type: x mandatory;
+  width: 95%;
+}
+
+.galeria-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+.galeria-scroll::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+.img-card {
+  min-width: 300px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

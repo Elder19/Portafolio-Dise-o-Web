@@ -1,0 +1,40 @@
+{
+  "descripcionGeneral": "En mi tiempo libre tengo varios hobbies que disfruto mucho. Me gusta hacer cosas diferentes, como salir a pescar, pasar tiempo con mis vehículos y practicar deportes que he llevado conmigo durante muchos años.",
+  
+  "pesca": {
+    "descripcion": "La pesca deportiva es una de mis actividades favoritas. Me ayuda a despejarme, relajarme y disfrutar la tranquilidad del agua.",
+    "imagenes": [
+      "/datos/pesca1 - copia.jpg",
+      "/datos/pesca2 - copia.jpg",
+      "/datos/pesca3 - copia.jpg",
+      "/datos/pesca4 - copia.jpg",
+      "/datos/pesca5 - copia.jpg",
+      "/datos/pesca6 - copia.jpg"
+    ]
+  },
+  
+  "vehiculos": {
+    "descripcion": "Siempre me han gustado los autos y las motos. Para mí representan libertad y diversión, y disfruto mucho dedicarles tiempo.",
+    "imagenes": [
+      "/datos/carro1 - copia.jpg",
+      "/datos/carro2 - copia.jpg",
+      "/datos/carro4 - copia.jpg",
+      "/datos/carro6 - copia.jpg",
+      "/datos/carro8 - copia.jpg",
+      "/datos/carro9 - copia.jpg"
+    ]
+  },
+  
+  "deportes": {
+    "descripcion": "A lo largo de mi vida he practicado varios deportes. Me gusta mantenerme activo, competir y seguir superándome poco a poco.",
+    "imagenes": [
+      "/datos/deporte1 - copia.jpg",
+      "/datos/deporte2 - copia.jpg",
+      "/datos/deporte3 - copia.jpg",
+      "/datos/deporte6 - copia.jpg",
+      "/datos/deporte5 - copia.jpg"
+    ]
+  },
+
+  "video": "/datos/hobbiesVideo.mp4"
+}

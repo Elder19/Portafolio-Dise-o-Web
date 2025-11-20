@@ -1,0 +1,195 @@
+/* CONTENEDOR PRINCIPAL */
+.comentarios-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* =========================================================
+   BOTÓN PRINCIPAL
+   ========================================================= */
+.btn-comentario {
+  background: linear-gradient(135deg, #4A90E2, #357ABD);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.btn-comentario:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.22);
+}
+
+/* =========================================================
+   LISTA CON SCROLL (ELEGANTE)
+   ========================================================= */
+.comentarios-lista {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 10px;
+  scroll-behavior: smooth;
+}
+
+/* SCROLLBAR ESTILO */
+.comentarios-lista::-webkit-scrollbar {
+  width: 8px;
+}
+
+.comentarios-lista::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+
+.comentarios-lista::-webkit-scrollbar-thumb {
+  background: #9aa8b8;
+  border-radius: 10px;
+}
+
+.comentarios-lista::-webkit-scrollbar-thumb:hover {
+  background: #7f8a97;
+}
+
+/* =========================================================
+   CARD DE CADA COMENTARIO
+   ========================================================= */
+.coment-card {
+  background: white;
+  padding: 18px;
+  margin: 15px 0;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.coment-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.18);
+}
+
+/* NOMBRE */
+.coment-card strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* TEXTO DEL COMENTARIO */
+.coment-card p {
+  margin-top: 6px;
+  line-height: 1.4;
+  color: #444;
+}
+
+/* =========================================================
+   MODAL OVERLAY
+   ========================================================= */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 50;
+}
+
+/* =========================================================
+   MODAL CUADRO
+   ========================================================= */
+.modal-content {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  animation: fadeIn 0.25s ease;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.94); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* CAMPOS */
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.modal-content input:focus,
+.modal-content textarea:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 5px rgba(74,144,226,0.4);
+  outline: none;
+}
+
+/* BOTONES DEL MODAL */
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* BOTÓN CERRAR */
+.btn-cerrar {
+  background: #cacaca;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn-cerrar:hover {
+  background: #b3b3b3;
+}
+
+/* BOTÓN ENVIAR */
+.btn-enviar {
+  background: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-enviar:hover {
+  background: #3e8e41;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .comentarios-container {
+    padding: 10px;
+  }
+
+  .coment-card {
+    padding: 15px;
+  }
+
+  .btn-comentario {
+    width: 100%;
+  }
+}
